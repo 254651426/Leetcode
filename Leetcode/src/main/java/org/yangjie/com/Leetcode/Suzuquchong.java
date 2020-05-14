@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 找出重复的数组
+ * 找出重复的数组 leetcode 442 题
  * 
  * @author whIDE
  *
