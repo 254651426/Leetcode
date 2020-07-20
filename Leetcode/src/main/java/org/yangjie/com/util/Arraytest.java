@@ -4,21 +4,21 @@ import java.util.Arrays;
 
 public class Arraytest {
 
-	// public static void main(String[] args) {
-	// Integer[] i = { 1, 2, 3, 4, 5, 6, 7 };
-	// Object[] remove = remove(i, 0);
-	// for (int j = 0; j < remove.length; j++) {
-	// System.out.print(remove[j]);
-	// }
-	// }
-
 	public static void main(String[] args) {
 		Integer[] i = { 1, 2, 3, 4, 5, 6, 7 };
-		Object[] remove = diyremove(i, 4);
+		Object[] remove = remove(i, 0);
 		for (int j = 0; j < remove.length; j++) {
 			System.out.print(remove[j]);
 		}
 	}
+
+	// public static void main(String[] args) {
+	// Integer[] i = { 1, 2, 3, 4, 5, 6, 7 };
+	// Object[] remove = diyremove(i, 4);
+	// for (int j = 0; j < remove.length; j++) {
+	// System.out.print(remove[j]);
+	// }
+	// }
 
 	private static Object[] remove(Object[] src, int index) {
 		int size = src.length; //
